@@ -1,7 +1,7 @@
 import sys
 
 #Take array from command line argument
-if len(sys.argv)  != 2:
+if len(sys.argv) != 2:
     sys.exit("Usage: python algorithm.py <votes_array>")
 
 votes = sys.argv[1].split(',')
